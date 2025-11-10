@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@theme inline {
+    --color-primary: var(--primary);
+}
+
+@layer base {
+    :root {
+        --primary: #2d5bff;
+    }
+
+    .theme-violet {
+        --primary: #af4bfe;
+    }
+}
