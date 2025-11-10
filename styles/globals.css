@@ -7,9 +7,30 @@
 @layer base {
     :root {
         --primary: #2d5bff;
+        --secondary: #6284fd;
+        --tertiary: #96adff;
+        --quaternary: #ecf0ff;
+
+        --hover: #1b4af0;
+        --click: #002ed0;
+        --icon: #7c7b7b;
+        --outline: #d7d7d7;
+        --divider: #ededed;
+
+        --bg-light: #ffffff;
+        --bg-dark: #f8f8f8;
+        --bg-disabled: #efefef;
+
+        --text-primary: #181818;
+        --text-secondary: #5c5c5c;
+        --text-tertiary: #747474;
+        --text-disabled: #8a8a8a;
     }
 
     .theme-violet {
         --primary: #af4bfe;
+        --secondary: #be74f9;
+        --tertiary: #e2bdff;
+        --quaternary: #f5e8ff;
     }
 }
