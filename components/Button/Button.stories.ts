@@ -16,3 +16,10 @@ export const Primary: Story = {
         children: 'Botão',
     },
 }
+
+export const Violet: Story = {
+    args: {
+        children: 'Botão',
+        className: 'theme-violet',
+    },
+}
