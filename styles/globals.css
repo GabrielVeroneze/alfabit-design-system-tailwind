@@ -2,10 +2,43 @@
 
 @theme inline {
     --color-primary: var(--primary);
+    --color-secondary: var(--secondary);
+    --color-tertiary: var(--tertiary);
+    --color-quaternary: var(--quaternary);
+
+    --color-hover: var(--hover);
+    --color-click: var(--click);
+    --color-icon: var(--icon);
+    --color-outline: var(--outline);
+    --color-divider: var(--divider);
+
+    --color-bg-light: var(--bg-light);
+    --color-bg-dark: var(--bg-dark);
+    --color-bg-disabled: var(--bg-disabled);
+
+    --color-text-primary: var(--text-primary);
+    --color-text-secondary: var(--text-secondary);
+    --color-text-tertiary: var(--text-tertiary);
+    --color-text-disabled: var(--text-disabled);
+
+    --breakpoint-mobile: var(--breakpoint-mobile);
+    --breakpoint-tablet: var(--breakpoint-tablet);
+    --breakpoint-desktop: var(--breakpoint-desktop);
+    --breakpoint-tv: var(--breakpoint-tv);
+
+    --shadow-sm: var(--shadow-sm);
+    --shadow-md: var(--shadow-md);
+    --shadow-lg: var(--shadow-lg);
+    --shadow-focus: var(--shadow-focus);
+    --shadow-outline: var(--shadow-outline);
+    --shadow-button-focus: var(--shadow-button-focus);
+
+    --blur-default: var(--blur);
 }
 
 @layer base {
     :root {
+        /* Colors */
         --primary: #2d5bff;
         --secondary: #6284fd;
         --tertiary: #96adff;
@@ -25,6 +58,23 @@
         --text-secondary: #5c5c5c;
         --text-tertiary: #747474;
         --text-disabled: #8a8a8a;
+
+        /* Breakpoints */
+        --breakpoint-mobile: 640px;
+        --breakpoint-tablet: 1024px;
+        --breakpoint-desktop: 1440px;
+        --breakpoint-tv: 1920px;
+
+        /* Shadows */
+        --shadow-sm: 0px 0px 10px 0px #84848426;
+        --shadow-md: 0px 0px 20px 0px #84848433;
+        --shadow-lg: 0px 0px 30px 0px #84848440;
+        --shadow-focus: 0px 0px 0px 2px #643296;
+        --shadow-outline: 0px 0px 0px 2px #e8e8e8;
+        --shadow-button-focus: 0px 0px 0px 2px #af4bfe;
+
+        /* Blur */
+        --blur: blur(4px);
     }
 
     .theme-violet {
