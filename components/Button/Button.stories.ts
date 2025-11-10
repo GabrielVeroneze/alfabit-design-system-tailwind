@@ -2,8 +2,7 @@ import { Meta, StoryObj } from '@storybook/nextjs-vite'
 import Button, { ButtonProps } from './Button'
 
 const meta = {
-    title: 'Button',
-    tags: ['autodocs'],
+    title: 'Molecules/Button',
     component: Button,
     argTypes: {},
 } satisfies Meta<ButtonProps>
