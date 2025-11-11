@@ -49,6 +49,21 @@ export const SecondaryDisabled: Story = {
     },
 }
 
+export const Tertiary: Story = {
+    args: {
+        children: 'Botão',
+        variant: 'tertiary',
+    },
+}
+
+export const TertiaryDisabled: Story = {
+    args: {
+        children: 'Botão',
+        variant: 'tertiary',
+        disabled: true,
+    },
+}
+
 export const Violet: Story = {
     args: {
         children: 'Botão',
@@ -61,5 +76,13 @@ export const VioletSecondary: Story = {
         children: 'Botão',
         className: 'theme-violet',
         variant: 'secondary',
+    },
+}
+
+export const VioletTertiary: Story = {
+    args: {
+        children: 'Botão',
+        className: 'theme-violet',
+        variant: 'tertiary',
     },
 }
