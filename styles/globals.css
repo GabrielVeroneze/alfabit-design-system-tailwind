@@ -28,14 +28,14 @@
     --color-outline: var(--outline);
     --color-divider: var(--divider);
 
-    --color-bg-light: var(--bg-light);
-    --color-bg-dark: var(--bg-dark);
-    --color-bg-disabled: var(--bg-disabled);
+    --background-color-light: var(--bg-light);
+    --background-color-dark: var(--bg-dark);
+    --background-color-disabled: var(--bg-disabled);
 
-    --color-text-primary: var(--text-primary);
-    --color-text-secondary: var(--text-secondary);
-    --color-text-tertiary: var(--text-tertiary);
-    --color-text-disabled: var(--text-disabled);
+    --text-color-gray-primary: var(--text-primary);
+    --text-color-gray-secondary: var(--text-secondary);
+    --text-color-gray-tertiary: var(--text-tertiary);
+    --text-color-disabled: var(--text-disabled);
 
     --breakpoint-mobile: var(--breakpoint-mobile);
     --breakpoint-tablet: var(--breakpoint-tablet);
