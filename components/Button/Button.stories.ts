@@ -13,7 +13,7 @@ const meta = {
         },
         className: {
             type: 'string',
-        }
+        },
     },
 } satisfies Meta<ButtonProps>
 
@@ -27,9 +27,39 @@ export const Primary: Story = {
     },
 }
 
+export const Disabled: Story = {
+    args: {
+        children: 'Botão',
+        disabled: true,
+    },
+}
+
+export const Secondary: Story = {
+    args: {
+        children: 'Botão',
+        variant: 'secondary',
+    },
+}
+
+export const SecondaryDisabled: Story = {
+    args: {
+        children: 'Botão',
+        variant: 'secondary',
+        disabled: true,
+    },
+}
+
 export const Violet: Story = {
     args: {
         children: 'Botão',
         className: 'theme-violet',
+    },
+}
+
+export const VioletSecondary: Story = {
+    args: {
+        children: 'Botão',
+        className: 'theme-violet',
+        variant: 'secondary',
     },
 }
