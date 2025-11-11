@@ -7,7 +7,7 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const Button = ({ children, className, disabled, ...rest }: ButtonProps) => {
     const base = 'rounded-md px-6 py-2'
     const state = disabled
-        ? 'bg-bg-disabled text-text-disabled'
+        ? 'bg-disabled text-disabled'
         : 'bg-primary text-white'
 
     return (
