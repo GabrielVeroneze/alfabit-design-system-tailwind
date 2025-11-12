@@ -27,6 +27,7 @@
     --color-icon: var(--icon);
     --color-outline: var(--outline);
     --color-divider: var(--divider);
+    --color-disabled: var(--text-disabled);
 
     --background-color-light: var(--bg-light);
     --background-color-dark: var(--bg-dark);
@@ -35,7 +36,6 @@
     --text-color-gray-primary: var(--text-primary);
     --text-color-gray-secondary: var(--text-secondary);
     --text-color-gray-tertiary: var(--text-tertiary);
-    --text-color-disabled: var(--text-disabled);
 
     --breakpoint-mobile: var(--breakpoint-mobile);
     --breakpoint-tablet: var(--breakpoint-tablet);
